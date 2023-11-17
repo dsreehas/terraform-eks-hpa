@@ -74,7 +74,7 @@ module "eks" {
 
 module "nginx" {
   source                = "./modules/nginx"
-  count = var.deploy_nginx ? 1 : 0
+  //count = var.deploy_nginx ? 1 : 0
 }
 
 module "hpa" {
