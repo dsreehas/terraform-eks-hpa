@@ -1,5 +1,3 @@
-# modules/nginx/main.tf
-
 resource "kubernetes_deployment" "nginx" {
   metadata {
     name = "nginx-deployment"
